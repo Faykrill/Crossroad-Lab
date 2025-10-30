@@ -13,3 +13,22 @@
 *.asset filter=lfs diff=lfs merge=lfs -text
 *.unity filter=lfs diff=lfs merge=lfs -text
 *.controller filter=lfs diff=lfs merge=lfs -text
+
+
+*.shader linguist-language=HLSL
+*.cginc linguist-language=HLSL
+*.hlsl linguist-language=HLSL
+*.compute linguist-language=HLSL
+
+
+*.json linguist-language=JSON
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+
+*.mat linguist-language=JSON
+*.asset linguist-language=YAML
+*.unity linguist-language=YAML
+*.prefab linguist-language=YAML
+
+*.meta linguist-detectable=false
